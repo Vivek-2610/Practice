@@ -1,0 +1,70 @@
+@media (max-width: 1399.98px) {}
+
+@media (max-width: 1199.98px) {
+    .banner .col .content {
+        max-width: 300px;
+        margin: 150px auto;
+    }
+
+    .banner .carousel-item h1 {
+        font-size: 40px;
+    }
+
+    .banner .carousel-item {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .card-wrap {
+        padding: 50px 20px 20px 80px;
+    }
+
+    .right-card {
+        padding: 50px 80px 20px 20px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .left-card {
+        margin-top: 0px;
+    }
+
+    .blog-section img {
+        height: 50%;
+        width: 100%;
+    }
+
+    .blog-section .blog-box img {
+        height: 100px;
+        width: 100px;
+        margin-top: 30px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .banner .col .content {
+        max-width: 200px;
+        margin: 150px auto;
+    }
+
+    .banner .carousel-item h1 {
+        font-size: 32px;
+    }
+
+    .banner .carousel-item {
+        height: 40vh;
+        width: 100%;
+    }
+
+    .counter-container .counter {
+        font-size: 30px;
+        color: var(--white);
+    }
+
+}
+
+@media (max-width: 575.98px) {}
