@@ -14,41 +14,19 @@
   background-color: var(--primary-bg);
 }
 
-section {
-  overflow-x: hidden;
-}
 
 .nav-link:hover {
   color: var(--primary-text);
 }
 
-.carousel-control-prev-icon {
-  background-image: none;
-}
-
-.carousel-control-prev-icon::before {
-  background-image: none;
-  content: "<";
-  font-size: 60px;
-  color: var(--black);
-  background-color: var(--white);
-  border-radius: 50%;
-  height: 100px;
-  position: absolute;
-  width: 100px;
-  left: -50px;
-  display: flex;
-  justify-content: end;
-  padding-right: 10px;
-}
-
+.carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-image: none;
 }
 
-.carousel-control-next-icon::after {
-  background-image: none;
-  content: ">";
+.carousel-control-next-icon::after,
+.carousel-control-prev-icon::before {
+  font-weight: 300;
   font-size: 60px;
   color: var(--black);
   background-color: var(--white);
@@ -56,10 +34,23 @@ section {
   height: 100px;
   position: absolute;
   width: 100px;
-  right: -50px;
+  background-image: none;
   display: flex;
-  justify-content: start;
+
+}
+
+.carousel-control-prev-icon::before {
+  content: "<";
+  left: -50px;
+  padding-right: 10px;
+  justify-content: end;
+}
+
+.carousel-control-next-icon::after {
+  content: ">";
+  right: -50px;
   padding-left: 10px;
+  justify-content: start;
 }
 
 /*<!-- ////////////////////////////////////////////  BANNER SECTION //////////////////////////////////////////// -->  */
