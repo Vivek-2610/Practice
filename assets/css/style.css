@@ -14,12 +14,18 @@
   background-color: var(--primary-bg);
 }
 
+section {
+  overflow-x: hidden;
+}
+
 .nav-link:hover {
   color: var(--primary-text);
 }
+
 .carousel-control-prev-icon {
   background-image: none;
 }
+
 .carousel-control-prev-icon::before {
   background-image: none;
   content: "<";
@@ -35,9 +41,11 @@
   justify-content: end;
   padding-right: 10px;
 }
+
 .carousel-control-next-icon {
   background-image: none;
 }
+
 .carousel-control-next-icon::after {
   background-image: none;
   content: ">";
@@ -53,6 +61,7 @@
   justify-content: start;
   padding-left: 10px;
 }
+
 /*<!-- ////////////////////////////////////////////  BANNER SECTION //////////////////////////////////////////// -->  */
 
 .banner .carousel-item h1 {
@@ -169,6 +178,7 @@
   background-color: var(--primary-color);
   margin: 50px 0;
 }
+
 /* .text-box {
   margin-left: -80px;
 } */
@@ -197,6 +207,7 @@
   bottom: 0;
   z-index: -99;
 }
+
 .img-section img {
   margin-top: -100px;
   object-fit: fill;
@@ -212,6 +223,7 @@
   left: -260px;
   z-index: -99;
 }
+
 iframe {
   height: 100%;
   width: 100%;
@@ -221,6 +233,7 @@ iframe {
   color: var(--white);
   background-color: var(--black);
 }
+
 .video button:hover {
   color: var(--black);
   background-color: var(--primary-color);
